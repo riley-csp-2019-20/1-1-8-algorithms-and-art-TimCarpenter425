@@ -116,6 +116,7 @@ for i in range(8):
 loop = 0
 count = 0
 while(1 == 1):
+    #big lightning
     if(loop % 32 == 0):
         while(count <= 3):
             t.pencolor("cyan")
@@ -164,7 +165,8 @@ while(1 == 1):
         t.forward(400)
         t.end_fill()
         count = 0
-    #1
+    #small lightning
+    #1 (top right)
     tcolor = "cyan"
     t.penup()
     t.pencolor(tcolor)
@@ -190,7 +192,7 @@ while(1 == 1):
     t.right(30)
     t.forward(30)
     loop += 1
-    #2
+    #2 (lower middle left)
     tcolor = "cyan"
     t.penup()
     t.pencolor(tcolor)
@@ -216,7 +218,7 @@ while(1 == 1):
     t.right(30)
     t.forward(30)
     loop += 1
-    #3
+    #3 (upper middle right)
     tcolor = "cyan"
     t.penup()
     t.pencolor(tcolor)
@@ -242,7 +244,7 @@ while(1 == 1):
     t.right(30)
     t.forward(30)
     loop += 1
-    #4
+    #4 (top right)
     tcolor = "cyan"
     t.penup()
     t.pencolor(tcolor)
@@ -268,7 +270,7 @@ while(1 == 1):
     t.right(30)
     t.forward(30)
     loop += 1
-    #5
+    #5 (upper middle left)
     tcolor = "cyan"
     t.penup()
     t.pencolor(tcolor)
@@ -294,7 +296,7 @@ while(1 == 1):
     t.right(30)
     t.forward(30)
     loop += 1
-    #6
+    #6 (lower middle right)
     tcolor = "cyan"
     t.penup()
     t.pencolor(tcolor)
@@ -320,7 +322,7 @@ while(1 == 1):
     t.right(30)
     t.forward(30)
     loop += 1
-    #7
+    #7 (bottom left)
     tcolor = "cyan"
     t.penup()
     t.pencolor(tcolor)
@@ -346,7 +348,7 @@ while(1 == 1):
     t.right(30)
     t.forward(30)
     loop += 1
-    #8
+    #8 (bottom right)
     tcolor = "cyan"
     t.penup()
     t.pencolor(tcolor)
